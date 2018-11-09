@@ -1,0 +1,12 @@
+<map name="image-map" id="image-map" class="presence">
+                <area alt="" class="iraq" data-country="IRAQ" title="" href="#" shape="rect" coords="1415,290" />
+                <area alt="" class="kuwait" data-country="KUWAIT" title="" href="#" shape="rect" coords="1435,334" />
+                <area alt="" class="bahrain" data-country="BAHRAIN" title="" href="#" shape="rect" coords="1438,366" />
+                <area alt="" class="qatar" data-country="QATAR" title="" href="#" shape="rect" coords="1454,372" />
+                <area alt="" class="oman" data-country="OMAN" title="" href="#" shape="rect" coords="1505,431" />
+                <area alt="" class="saud" data-country="SAUDI ARABIA" title="" href="#" shape="rect" coords="1407,383" />
+                <area alt="" class="livia" data-country="LIBYA" title="" href="#" shape="rect" coords="1188,366" />
+                <area alt="" class="gabon" data-country="GABON" title="" href="#" shape="rect" coords="1157,616" />
+                <area alt="" class="liberia" data-country="LIBERIA" title="" href="#" shape="rect" coords="996,562" />
+                <area alt="" class="gvinea" data-country="GUINEA" title="" href="#" shape="rect" coords="957,527" />
+            </map>

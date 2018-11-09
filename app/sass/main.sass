@@ -1,0 +1,250 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+// ::placeholder
+// 	color: #666
+
+/*********************** CUSTOM FONTS *****************************/
+
+@font-face 
+	font-family: 'Montserrat'
+	src: url('/wp-content/themes/wsf/assets/fonts/Montserrat-Regular.eot')
+	src: local('/wp-content/themes/wsf/assets/fonts/Montserrat Regular'), local('/wp-content/themes/wsf/assets/fonts/Montserrat-Regular'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Regular.woff2') format('woff2'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Regular.woff') format('woff'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Regular.ttf') format('truetype'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Regular.svg#Montserrat-Regular') format('svg')
+	font-weight: normal
+	font-style: normal
+
+
+@font-face 
+	font-family: 'Montserrat'
+	src: url('/wp-content/themes/wsf/assets/fonts/Montserrat-Medium.eot')
+	src: local('/wp-content/themes/wsf/assets/fonts/Montserrat Medium'), local('/wp-content/themes/wsf/assets/fonts/Montserrat-Medium'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Medium.woff2') format('woff2'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Medium.woff') format('woff'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Medium.ttf') format('truetype'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Medium.svg#Montserrat-Medium') format('svg')
+	font-weight: 500
+	font-style: normal
+
+
+@font-face 
+	font-family: 'Montserrat'
+	src: url('/wp-content/themes/wsf/assets/fonts/Montserrat-SemiBold.eot')
+	src: local('/wp-content/themes/wsf/assets/fonts/Montserrat SemiBold'), local('/wp-content/themes/wsf/assets/fonts/Montserrat-SemiBold'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-SemiBold.woff') format('woff'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-SemiBold.ttf') format('truetype'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-SemiBold.svg#Montserrat-SemiBold') format('svg')
+	font-weight: 600
+	font-style: normal
+
+
+@font-face 
+	font-family: 'Montserrat'
+	src: url('/wp-content/themes/wsf/assets/fonts/Montserrat-Bold.eot')
+	src: local('/wp-content/themes/wsf/assets/fonts/Montserrat Bold'), local('/wp-content/themes/wsf/assets/fonts/Montserrat-Bold'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Bold.woff2') format('woff2'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Bold.woff') format('woff'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Bold.ttf') format('truetype'),
+	url('/wp-content/themes/wsf/assets/fonts/Montserrat-Bold.svg#Montserrat-Bold') format('svg')
+	font-weight: bold
+	font-style: normal
+
+
+@font-face 
+	font-family: 'Intro Bold Alt'
+	src: url('/wp-content/themes/wsf/assets/fonts/Intro-Bold-Alt.eot')
+	src: local('/wp-content/themes/wsf/assets/fonts/Intro Bold Alt'), local('/wp-content/themes/wsf/assets/fonts/Intro-Bold-Alt'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold-Alt.eot?#iefix') format('embedded-opentype'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold-Alt.woff2') format('woff2'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold-Alt.woff') format('woff'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold-Alt.ttf') format('truetype'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold-Alt.svg#Intro-Bold-Alt') format('svg')
+	font-weight: bold
+	font-style: normal
+
+
+@font-face 
+	font-family: 'Intro'
+	src: url('/wp-content/themes/wsf/assets/fonts/Intro-Bold.eot')
+	src: local('/wp-content/themes/wsf/assets/fonts/Intro Bold'), local('/wp-content/themes/wsf/assets/fonts/Intro-Bold'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold.eot?#iefix') format('embedded-opentype'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold.woff2') format('woff2'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold.woff') format('woff'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold.ttf') format('truetype'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Bold.svg#Intro-Bold') format('svg')
+	font-weight: bold
+	font-style: normal
+
+
+@font-face 
+	font-family: 'Intro Regular Alt'
+	src: url('/wp-content/themes/wsf/assets/fonts/Intro-Regular-Alt.eot')
+	src: local('/wp-content/themes/wsf/assets/fonts/Intro Regular Alt'), local('/wp-content/themes/wsf/assets/fonts/Intro-Regular-Alt'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Regular-Alt.eot?#iefix') format('embedded-opentype'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Regular-Alt.woff2') format('woff2'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Regular-Alt.woff') format('woff'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Regular-Alt.ttf') format('truetype'),
+	url('/wp-content/themes/wsf/assets/fonts/Intro-Regular-Alt.svg#Intro-Regular-Alt') format('svg')
+	font-weight: normal
+	font-style: normal
+
+
+/*****************MIXINS**************/
+
+@mixin transition($property, $time, $delay: 0s) 
+	transition: $property $time $delay
+
+
+@mixin montReg() 
+	font-family: 'Montserrat', sans-serif
+	font-weight: normal
+	font-style: normal
+
+
+@mixin montMd() 
+	font-family: 'Montserrat', sans-serif
+	font-weight: 500
+	font-style: normal
+
+
+@mixin montSemBold() 
+	font-family: 'Montserrat', sans-serif
+	font-weight: 600
+	font-style: normal
+
+
+@mixin montBold() 
+	font-family: 'Montserrat', sans-serif
+	font-weight: bold
+	font-style: normal
+
+
+@mixin introRegAlt() 
+	font-family: 'Intro Regular Alt', sans-serif;
+	font-weight: normal
+	font-style: normal
+
+
+@mixin introBoldAlt() 
+	font-family: 'Intro Bold Alt', sans-serif
+	font-weight: normal
+	font-style: normal
+
+
+@mixin introBold() 
+	font-family: 'Intro Bold', sans-serif
+	font-weight: normal
+	font-style: normal
+
+
+@mixin grad-bg() 
+	background: linear-gradient(to right, rgb(255,134,50), rgb(218,72,22))
+
+@mixin opacity($opacity)
+	opacity: $opacity / 100
+	filter: alpha(opacity=$opacity)
+
+/************ CUSTOM STYLES ********************/
+
+*
+	margin: 0
+	padding: 0
+	-webkit-box-sizing: border-box
+	box-sizing: border-box
+
+
+a 
+	text-decoration: none
+
+
+button 
+	outline: none
+	cursor: pointer
+	border: none
+
+
+ul
+	list-style-type: none
+
+::selection
+	background-color: $accent
+	color: #fff
+
+
+body, html
+	@include montMd()
+	font-size: 100%
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	overflow-x: hidden
+
+
+.h1, .h2, .h3, .h4, .h5, .h6
+	text-transform: uppercase
+	line-height: 1.4
+
+.text-center
+	text-align: center
+
+
+.button
+	display: inline-block
+	border: none
+	color: #fff
+	text-decoration: none
+	background-color: $accent
+	padding: 16px 45px
+	font-size: 13px
+	text-transform: uppercase
+	font-weight: 600
+	letter-spacing: 3px
+	border-radius: 2px
+	text-align: center
+	position: relative
+	outline: none
+	transition: background-color .1s ease
+	cursor: pointer
+	&::after
+		transition: background-color .2s ease
+		position: absolute
+		content: ''
+		height: 4px
+		bottom: 0
+		width: 100%
+		background-color: darken($accent, 50%)
+		opacity: .18
+		border-bottom-left-radius: 2px
+		border-bottom-right-radius: 2px
+		left: 0
+	&:focus, &:hover
+		text-decoration: none
+		color: #fff
+	&:hover
+		background-color: lighten($accent, 5%)
+		&::after
+			opacity: .22
+	&:active
+		background-color: darken($accent, 5%)
+		&::after
+			opacity: .32
+
+
+/*************** MAIN PAGE ****************/
+
+
+		
+
+
+
+
+@import "media" // Always at the end
